@@ -1,0 +1,16 @@
+{
+    "name": "Trello Tools",
+    "version": "0.0.1",
+    "manifest_version": 2,
+
+    "page_action": {
+        "default_title": "Trello Tools",
+        "default_icon":  "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [ "*://*.trello.com/*/*" ],
+            "js": [ "jquery-2.1.0.js", "content.js" ]
+        }
+    ]
+}
