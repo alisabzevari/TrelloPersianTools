@@ -1,9 +1,9 @@
 $(document).ready(function () {
     setInterval(function() {
-        modifyCardsInList();
-        modifyCardDetails();
+        // modifyCardsInList();
+        // modifyCardDetails();
         countListItems();
-    }, 100);
+    }, 1000);
 });
 
 function countListItems() {
