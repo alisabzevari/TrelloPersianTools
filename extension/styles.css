@@ -1,0 +1,4 @@
+.list-card-title, .window-header, .action-comment, .checklist-item-details-text{
+	direction: rtl !important;
+}
+
